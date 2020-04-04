@@ -2,7 +2,7 @@ export interface MessageData {
   message: string,
   imageThumbnail?: string,
   imageFullsize?: string,
-  imageFile?: Buffer,
+  imageFile?: unknown,
   stickerPackageId?: number,
   stickerId?: number,
   notificationDisabled?: boolean
