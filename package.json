@@ -1,7 +1,7 @@
 {
   "name": "line-notify",
   "version": "0.0.1",
-  "description": "TypeScript template for Yarn.",
+  "description": "This module makes it easy to use LINE Notify.",
   "main": "dist/index.js",
   "license": "MIT",
   "homepage": "",
