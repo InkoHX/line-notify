@@ -11,6 +11,17 @@
 
 </div>
 
+## Example of usage
+
+```ts
+import { LineNotify } from '@inkohx/line-notify'
+
+const notify = new LineNotify('token here')
+
+notify.send('Hello World')
+  .catch(console.error)
+```
+
 ## Feature
 
 - MessageBuilder
